@@ -2,17 +2,17 @@
     transition: all .2s;
 }
 @media only screen and (max-width: 992px) {
-    .main{ 
+    .main { 
         width: 350px;
         flex-flow: wrap-reverse;
     }
-    .main_content{
+    .main_content {
         padding: 20px 44px;
     }
-    .name{
+    .name {
         display: none;
     }
-    .name_side_bar{
+    .name_side_bar {
         visibility: visible;
         font-style: normal;
         font-weight: 700;
@@ -20,8 +20,5 @@
         line-height: 55px;
         color: white;
         padding-left: 40px;
-    }
-    img{
-        margin-top: 0;
     }
 }
