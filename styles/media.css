@@ -1,8 +1,15 @@
+* {
+    transition: all .2s;
+}
 @media only screen and (max-width: 992px) {
     .main{ 
-        width: 750px;
+        width: 450px;
+        flex-flow: wrap-reverse;
     }
-    .side_bar{
-        width: 750px;
+    .main_content{
+        padding: 20px 44px;
+    }
+    img {
+        width: 450px;
     }
 }
